@@ -1,0 +1,173 @@
+   в System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   в System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 79
+   в Crypt.Substition.Decryption() в D:\Новая папка\Main\Crypt\Substition.cs:строка 46
+   в Main.MainWindow.UnTranslate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 51
+
+   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 78
+   в Crypt.Substition.Encryption() в D:\Новая папка\Main\Crypt\Substition.cs:строка 26
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 92
+
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 90   в Crypt.Substition..ctor(String _text, String _initialAlphabet, String _encryptAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 18
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 81   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 78
+   в Crypt.Substition.Encryption() в D:\Новая папка\Main\Crypt\Substition.cs:строка 26
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 98   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 99   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 77
+   в Crypt.Substition.Encryption() в D:\Новая папка\Main\Crypt\Substition.cs:строка 26
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 111   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 77
+   в Crypt.Substition.Encryption() в D:\Новая папка\Main\Crypt\Substition.cs:строка 26
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 111   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 78
+   в Crypt.Substition.Encryption() в D:\Новая папка\Main\Crypt\Substition.cs:строка 26
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 111   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 95   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 115   в Crypt.Substition..ctor(String _text, String _initialAlphabet, String _encryptAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 18
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 98   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 101   в System.Text.RegularExpressions.Regex.Replace(String input, String replacement)
+   в System.Text.RegularExpressions.Regex.Replace(String input, String pattern, String replacement)
+   в Crypt.Caesar..ctor(String _text, Int32 _shift, String _initialAlphabet) в D:\Новая папка\Main\Crypt\Caesar.cs:строка 17
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 101   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 109   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 109   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.Translate_Click(Object sender, RoutedEventArgs e) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 112   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 187   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 191   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 191   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Crypt.Permutation.<>c.<.ctor>b__3_0(String m) в D:\Новая папка\Main\Crypt\Permutation.cs:строка 18
+   в System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   в System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   в System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   в Crypt.Permutation..ctor(String _text, Int32 _number, String _reshuff) в D:\Новая папка\Main\Crypt\Permutation.cs:строка 18
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 195   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 198   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Crypt.PermutationHard.<>c.<.ctor>b__3_0(String m) в D:\Новая папка\Main\Crypt\PermutationHard.cs:строка 18
+   в System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   в System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   в System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   в Crypt.PermutationHard..ctor(String _text, Int32 _number, String _reshuff) в D:\Новая папка\Main\Crypt\PermutationHard.cs:строка 18
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 198   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 188
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 211   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 188
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 211   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 185
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 211   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 185
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 211   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 219   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 188
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 211   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 207   в Main.MainWindow.CheckXOR(String text, String key) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 195
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 215   в Main.MainWindow.CheckXOR(String text, String key) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 197
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 215   в Crypt.Substition..ctor(String _text, String _initialAlphabet, String _encryptAlphabet) в D:\Новая папка\Main\Crypt\Substition.cs:строка 18
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 209   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 28
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 230   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 29
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 230   в Main.MainWindow.CheckXOR(String text, String key) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 195
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 215   в Main.MainWindow.CheckXOR(String text, String key) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 197
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 215   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 185
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 219   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 185
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 219   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 185
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 219   в Main.MainWindow.CheckReshuff(Int32 a, String reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 185
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 219   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 186
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 220   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 186
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 189
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 186
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 220   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 186
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 220   в System.Text.RegularExpressions.Regex.Replace(String input, String replacement)
+   в System.Text.RegularExpressions.Regex.Replace(String input, String pattern, String replacement)
+   в Crypt.Caesar..ctor(String _text, Int32 _shift, String _initialAlphabet) в F:\Новая папка\Main\Crypt\Caesar.cs:строка 17
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 213   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 37
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 231   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 37
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 231   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 228   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 228   в Crypt.Substition..ctor(String _text, String _initialAlphabet, String _encryptAlphabet) в F:\Новая папка\Main\Crypt\Substition.cs:строка 19
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 210   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в F:\Новая папка\Main\Crypt\Substition.cs:строка 83
+   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 30
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 231   в Main.MainWindow.CheckXOR(String text, String key) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 196
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 216   в Main.MainWindow.CheckXOR(String text, String key) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 198
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 216   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 29
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 231   в Main.MainWindow.CheckXOR(String text, String key) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 196
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 216   в Main.MainWindow.CheckXOR(String text, String key) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 198
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 216   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 189
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 220   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 186
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 220   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 29
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 231   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в F:\Новая папка\Main\Crypt\Substition.cs:строка 82
+   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 30
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 231   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 29
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 231   в System.Text.RegularExpressions.Regex.Replace(String input, String replacement)
+   в System.Text.RegularExpressions.Regex.Replace(String input, String pattern, String replacement)
+   в Crypt.Caesar..ctor(String _text, Int32 _shift, String _initialAlphabet) в F:\Новая папка\Main\Crypt\Caesar.cs:строка 17
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 213   в System.Text.RegularExpressions.Regex.Replace(String input, String replacement)
+   в System.Text.RegularExpressions.Regex.Replace(String input, String pattern, String replacement)
+   в Crypt.Caesar..ctor(String _text, Int32 _shift, String _initialAlphabet) в F:\Новая папка\Main\Crypt\Caesar.cs:строка 17
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Crypt.Substition..ctor(String _text, String _initialAlphabet, String _encryptAlphabet) в F:\Новая папка\Main\Crypt\Substition.cs:строка 19
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.TranslateHandler(Boolean cr)   в Crypt.Substition..ctor(String _text, String _initialAlphabet, String _encryptAlphabet) в F:\Новая папка\Main\Crypt\Substition.cs:строка 19
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в F:\Новая папка\Main\Crypt\Substition.cs:строка 83
+   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 30
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Crypt.Substition.Encryption() в F:\Новая папка\Main\Crypt\Substition.cs:строка 29
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.CheckXOR(String text, String key)
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.CheckXOR(String text, String key)
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff)
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff)
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff)
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff)
+   в Main.MainWindow.TranslateHandler(Boolean cr)   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 224   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 185
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 224   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Crypt.Permutation.<>c.<.ctor>b__3_0(String m) в D:\Новая папка\Main\Crypt\Permutation.cs:строка 18
+   в System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   в System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   в System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   в Crypt.Permutation..ctor(String _text, Int32 _number, String _reshuff) в D:\Новая папка\Main\Crypt\Permutation.cs:строка 18
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 225   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 188
+   в Main.MainWindow.TranslateHandler(Boolean cr) в D:\Новая папка\Main\Main\MainWindow.xaml.cs:строка 224   в Crypt.Substition.Encryption() в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Crypt\Substition.cs:строка 28
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 235   в Crypt.Substition.MakeAlphabetDictionary(List`1 alphabet, List`1 encryprionAlphabet) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Crypt\Substition.cs:строка 81
+   в Crypt.Substition.Encryption() в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Crypt\Substition.cs:строка 29
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 235   в Main.MainWindow.CheckXOR(String text, String key) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 198
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 220   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 188
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 188
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 228   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 228   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 228   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 228   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 228   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в C:\Users\Admin\Desktop\Новая папка\crypt\Main\Main\MainWindow.xaml.cs:строка 228   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 188
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 224   в Main.MainWindow.CheckReshuff(Int32 a, List`1 reshuff) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 179
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 224   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в Main.MainWindow.TranslateHandler(Boolean cr) в F:\Родионова\Main\Main\MainWindow.xaml.cs:строка 224
